@@ -52,10 +52,19 @@ data = [
 ]
 
 columns = [
-"Nombre","Tipo","Activo Total","Cuentas de Inversión","Cuenta Promedio",
-"Solvencia","Liquidez","Apalancamiento","ROA","ROE","Colaboradores","Cuentas de Orden"
+"Nombre",
+"Tipo de capital",
+"Activo Total",
+"Cuentas de Inversión",
+"Cuenta Promedio",
+"Solvencia",
+"Liquidez",
+"Apalancamiento",
+"ROA",
+"ROE",
+"Colaboradores",
+"Cuentas de Orden"
 ]
-
 ### Nuevos
 
 df = pd.DataFrame(data, columns=columns)
