@@ -95,5 +95,5 @@ st.subheader("Top 10")
 st.dataframe(df_sorted.head(10).reset_index(drop=True))
 
 # Gráfica
-st.subheader("Visualización gráfica")
-st.bar_chart(df_sorted.set_index("Nombre")[indicador])
+# st.subheader("Visualización gráfica")
+# st.bar_chart(df_sorted.set_index("Nombre")[indicador])
