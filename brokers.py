@@ -13,6 +13,13 @@ import pandas as pd
 # -----------------------------
 # DATOS COMPLETOS
 # -----------------------------
+
+columns = [
+"Nombre corto","Tipo de capital","Activo Total","Cuentas de Inversión",
+"Cuenta promedio","Solvencia","Liquidez","Apalancamiento",
+"ROA","ROE","Colaboradores","Cuentas de Orden"
+]
+
 data = [
 ["Actinver","Nacional","112,781","375,397","3,061,641",103.7,35.4,2719.2,0.7,11.8,527,"1,149,331"],
 ["Altor","Nacional","4,453","166","171,325,458",106.1,5.3,1635.4,0.9,21.1,43,"28,440"],
@@ -50,13 +57,6 @@ data = [
 ["Value","Nacional","10,575","4,618","27,334,478",128.5,21.5,350.5,-3.3,0.7,142,"126,231"],
 ["Vifaru","Nacional","406","34,568","14,860",137.7,16.0,264.9,-10.2,-12.4,15,"514"]
 ]
-
-columns = [
-"Nombre","Tipo","Activo Total","Cuentas de Inversión","Cuenta promedio",
-"Solvencia","Liquidez","Apalancamiento","ROA","ROE","Colaboradores","Cuentas de Orden"
-]
-
-
 
 ### Nuevos
 
